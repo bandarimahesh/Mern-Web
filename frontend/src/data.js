@@ -1,0 +1,41 @@
+const data = {
+  products: [
+    {
+      _id: 1,
+      name: "New slim shirt",
+      category: "Shirts",
+      image: "images/p1.jpg",
+      price: 120,
+      brand: "Nike",
+      rating: 5,
+      countInStock: 6,
+      numReviews: 8,
+      description: "New style slim shirt",
+    },
+    {
+      _id: 2,
+      name: "New slim T shirt",
+      category: "Shirts",
+      image: "images/p2.jpg",
+      price: 170,
+      brand: "Nike",
+      rating: 1,
+      countInStock: 0,
+      numReviews: 3,
+      description: "New style slim shirt",
+    },
+    {
+      _id: 3,
+      name: "New slim Pant",
+      category: "Shirts",
+      image: "images/p3.jpg",
+      price: 140,
+      brand: "Nike",
+      rating: 4,
+      countInStock: 35,
+      numReviews: 7,
+      description: "New style slim shirt",
+    },
+  ],
+};
+export default data;
